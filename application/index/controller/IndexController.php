@@ -16,6 +16,7 @@ class IndexController
             echo date('Y/m/d', $user->birthday) . '<br/>';
             echo '----------------------------------<br/>';
         }
+        echo 123;
     }
 
     public function add()
